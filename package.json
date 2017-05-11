@@ -1,0 +1,44 @@
+{
+  "name": "react-anim-placeholder",
+  "version": "0.0.1",
+  "description": "Animated content placeholders for React.",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damien-monni/react-anim-placeholder.git"
+  },
+  "keywords": [
+    "react",
+    "content",
+    "placeholder"
+  ],
+  "author": "Damien Monni <monni.damien@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damien-monni/react-anim-placeholder/issues"
+  },
+  "homepage": "https://github.com/damien-monni/react-anim-placeholder#readme",
+  "extends": "airbnb",
+  "dependencies": {
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "styled-components": "^1.4.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}
